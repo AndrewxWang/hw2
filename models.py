@@ -327,7 +327,7 @@ def train_logistic_regression(train_exs: List[SentimentExample], feat_extractor:
     max_iters = 30
 
     # lr for GD
-    lr = 0.01
+    lr = 0.0089
 
     # sets random seed for consistency for testing
     random.seed(10)
